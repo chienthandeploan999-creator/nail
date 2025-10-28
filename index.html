@@ -1092,80 +1092,16 @@
         The luxurious and modern space of Spa La Tour — where you are cared for to the highest standards
       </p>
       
-      <!-- Main Studio Image -->
-      <div class="mb-6 md:mb-8">
-        <div class="aspect-video bg-gray-100 rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform shadow-lg" onclick="openImage('tiemnail12.jpg')">
-          <img src="tiemnail12.jpg" alt="Main studio space" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-gray-400 text-lg\'>Main studio photo</div>'">
+      <!-- Studio Gallery - 3 across -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+        <div class="aspect-square bg-gray-100 rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform shadow-md" onclick="openImage('tiemnail11.jpg')">
+          <img src="tiemnail11.jpg" alt="Studio 11" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-gray-400\'>Studio 11</div>'">
         </div>
-      </div>
-      
-      <!-- Studio Gallery Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-        <!-- Reception Area -->
-        <div class="group">
-          <h4 class="text-base md:text-lg font-semibold gold-text mb-2 md:mb-3 text-center">Reception Area</h4>
-          <div class="aspect-square bg-gray-100 rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform shadow-md" onclick="openImage('tiemnail11.jpg')">
-            <img src="tiemnail1.jpg" alt="Reception Area" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-gray-400\'>Reception Area</div>'">
-          </div>
+        <div class="aspect-square bg-gray-100 rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform shadow-md" onclick="openImage('tiemnail12.jpg')">
+          <img src="tiemnail12.jpg" alt="Studio 12" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-gray-400\'>Studio 12</div>'">
         </div>
-        
-        <!-- Nail Station -->
-        <div class="group">
-          <h4 class="text-base md:text-lg font-semibold gold-text mb-2 md:mb-3 text-center">Nail Stations</h4>
-          <div class="aspect-square bg-gray-100 rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform shadow-md" onclick="openImage('tiemnail10.jpg')">
-            <img src="tiemnail10.jpg" alt="Nail Stations" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-gray-400\'>Nail Stations</div>'">
-          </div>
-        </div>
-        
-        <!-- Pedicure Area -->
-        <div class="group">
-          <h4 class="text-base md:text-lg font-semibold gold-text mb-2 md:mb-3 text-center">Pedicure Area</h4>
-          <div class="aspect-square bg-gray-100 rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform shadow-md" onclick="openImage('tiemnail5.jpg')">
-            <img src="tiemnail5.jpg" alt="Pedicure Area" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-gray-400\'>Pedicure Area</div>'">
-          </div>
-        </div>
-        
-        <!-- Facial Room -->
-        <div class="group">
-          <h4 class="text-base md:text-lg font-semibold gold-text mb-2 md:mb-3 text-center">Facial Room</h4>
-          <div class="aspect-square bg-gray-100 rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform shadow-md" onclick="openImage('tiemnail8.jpg')">
-            <img src="tiemnail8.jpg" alt="Facial Room" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-gray-400\'>Facial Room</div>'">
-          </div>
-        </div>
-        
-        <!-- Relaxation Area -->
-        <div class="group">
-          <h4 class="text-base md:text-lg font-semibold gold-text mb-2 md:mb-3 text-center">Relaxation Area</h4>
-          <div class="aspect-square bg-gray-100 rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform shadow-md" onclick="openImage('tiemnail4.jpg')">
-            <img src="tiemnail4.jpg" alt="Relaxation Area" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-gray-400\'>Relaxation Area</div>'">
-          </div>
-        </div>
-        
-        <!-- Equipment -->
-        <div class="group">
-          <h4 class="text-base md:text-lg font-semibold gold-text mb-2 md:mb-3 text-center">🔧 Professional Equipment</h4>
-          <div class="aspect-square bg-gray-100 rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform shadow-md" onclick="openImage('tiemnail4.jpg')">
-            <img src="tiemnail4.jpg" alt="Professional Equipment" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-gray-400\'>Equipment</div>'">
-          </div>
-        </div>
-      </div>
-      
-      <!-- Additional Studio Images -->
-      <div class="mt-6 md:mt-8">
-        <h4 class="text-lg md:text-xl font-semibold gold-text mb-4 md:mb-6 text-center">📸 More Studio Photos</h4>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
-          <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform" onclick="openImage('tiemnail1.jpg')">
-            <img src="tiemnail11.jpg" alt="Studio Photo 1" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-gray-400\'>Image 1</div>'">
-          </div>
-          <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform" onclick="openImage('tiemnail2.jpg')">
-            <img src="tiemnail12.jpg" alt="Studio Photo 2" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-gray-400\'>Image 2</div>'">
-          </div>
-          <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform" onclick="openImage('tiemnail3.jpg')">
-            <img src="tiemnail3.jpg" alt="Studio Photo 3" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-gray-400\'>Image 3</div>'">
-          </div>
-          <div class="aspect-square bg-gray-100 rounded-lg overflow-hidden cursor-pointer hover:scale-105 transition-transform" onclick="openImage('tiemnail6.jpg')">
-            <img src="tiemnail6.jpg" alt="Studio Photo 4" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-gray-400\'>Image 4</div>'">
-          </div>
+        <div class="aspect-square bg-gray-100 rounded-xl overflow-hidden cursor-pointer hover:scale-105 transition-transform shadow-md" onclick="openImage('tiemnail13.jpg')">
+          <img src="tiemnail13.jpg" alt="Studio 13" class="w-full h-full object-cover" onerror="this.parentElement.innerHTML='<div class=\'w-full h-full flex items-center justify-center text-gray-400\'>Studio 13</div>'">
         </div>
       </div>
   </div>
